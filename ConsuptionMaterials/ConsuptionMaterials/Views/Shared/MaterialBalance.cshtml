@@ -1,0 +1,30 @@
+﻿@model IEnumerable<string>
+
+<table class="table">
+            <tr>
+                <th>
+                    Наименование
+                </th>
+                <th>
+                    Ед.изм.
+                </th>
+                <th>
+                    Кол-во
+                </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        string[] values = item.Split('|');
+    <tr>
+        <td>
+            @values[0]
+        </td>
+        <td>
+            @values[1]
+        </td>
+        <td>
+            @values[2]
+        </td>
+    </tr>
+    }
+</table>

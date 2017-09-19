@@ -1,0 +1,24 @@
+/ConsuptionMaterials/ConsuptionMaterials.Tests/obj/Debug
+/ConsuptionMaterials/ConsuptionMaterials/obj/Debug
+<<<<<<< HEAD
+/ConsuptionMaterials/ConsuptionMaterials.Tests/bin/Debug
+/ConsuptionMaterials/ConsuptionMaterials.Tests/bin/Release
+/ConsuptionMaterials/ConsuptionMaterials.Tests/obj/Release
+/ConsuptionMaterials/ConsuptionMaterials/obj/Release/Package/PackageTmp
+/ConsuptionMaterials/ConsuptionMaterials/obj/Release
+=======
+/ConsuptionMaterials/ConsuptionMaterials.Tests/bin/Release/roslyn
+/ConsuptionMaterials/ConsuptionMaterials/obj/Release/Package/PackageTmp/Scripts
+/ConsuptionMaterials/ConsuptionMaterials/obj/Release/Package/PackageTmp
+/ConsuptionMaterials/ConsuptionMaterials.Tests/bin/Release
+/ConsuptionMaterials/ConsuptionMaterials/obj/Release
+/ConsuptionMaterials/ConsuptionMaterials.Tests/obj/Release
+/ConsuptionMaterials/ConsuptionMaterials.Tests/bin/Debug
+>>>>>>> master
+/Deploy/Views/Shared
+/Deploy
+/ConsuptionMaterials/.vs/ConsuptionMaterials/v14
+/ConsuptionMaterials/ConsuptionMaterials/App_Data
+/ConsuptionMaterials/ConsuptionMaterials/bin
+/ConsuptionMaterials/packages
+/Data

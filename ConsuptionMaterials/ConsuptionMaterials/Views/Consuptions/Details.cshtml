@@ -1,0 +1,66 @@
+﻿@model ConsuptionMaterials.Models.Consuption
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Consuption</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Manager.Login)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Manager.Login)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Material.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Material.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Person.PersonName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Person.PersonName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateConsuption)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateConsuption)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Count)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Count)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Notes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Notes)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
